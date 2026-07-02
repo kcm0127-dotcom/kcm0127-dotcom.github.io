@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 코딩 도우미 비교 - kcm0127.dev</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { margin-top: 30px; }
+        pre { background: #1e1e1e; color: #d4d4d4; padding: 15px; border-radius: 6px; overflow-x: auto; }
+        code { font-family: 'Fira Code', 'Consolas', monospace; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+        th { background: #f5f5f5; }
+        a { color: #0366d6; }
+        .back { margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <h1>2026년 AI 코딩 도우미 완전 비교</h1>
+    <p><time>2026-07-02</time> · AI, Dev</p>
+
+    <p>AI 코딩 도우미 시장이 2026년 들어 폭발적으로 성장하고 있습니다. 더 이상 단순 자동완성이 아니라, 이슈 하나 던지면 PR까지 만들어주는 수준까지 왔습니다.</p>
+
+    <h2>Claude Code (Anthropic)</h2>
+    <p><strong>장점:</strong> 코드 품질 최상, 리팩토링·아키텍처 설계에 강함, 터미널 통합 자연스러움</p>
+    <p><strong>단점:</strong> 구독제 비용 ($10~25/월), 긴 세션에서 컨텍스트 손실</p>
+
+    <h2>OpenAI Codex CLI</h2>
+    <p><strong>장점:</strong> OpenAI 생태계 완벽 통합, GPT-5 기반 강력한 추론</p>
+    <p><strong>단점:</strong> 양자화 모델 품질 저하, 종량제 과금 예측 어려움</p>
+
+    <h2>OpenCode</h2>
+    <p><strong>장점:</strong> 오픈소스, 로컬 모델 연동 가능 (LM Studio, Ollama), 무료 티어</p>
+    <p><strong>단점:</strong> 양자화 모델 코드 품질 아쉬움, 설정 복잡</p>
+
+    <h2>코드 예시</h2>
+    <pre><code># AI 도우미에게 요청:
+"""
+FastAPI로 사용자 인증 API를 만들어줘.
+- JWT 토큰 기반
+- PostgreSQL 연동
+- 테스트 코드 포함
+"""</code></pre>
+
+    <h2>결론</h2>
+    <table>
+        <tr><th>상황</th><th>추천</th></tr>
+        <tr><td>코드 품질 최우선</td><td>Claude Code</td></tr>
+        <tr><td>OpenAI 생태계</td><td>Codex</td></tr>
+        <tr><td>가성비</td><td>OpenCode</td></tr>
+        <tr><td>학생/개인</td><td>OpenCode (무료)</td></tr>
+    </table>
+
+    <p class="back"><a href="/">← 홈으로</a></p>
+</body>
+</html>
